@@ -1,11 +1,11 @@
-package net.codejava.fileupload.dao;
+package com.airdit.dao;
 
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import net.codejava.fileupload.model.UploadFile;
+import com.airdit.model.UploadFile;
 
 @Repository
 public class FileUploadDAOImpl implements FileUploadDAO {

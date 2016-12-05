@@ -1,4 +1,4 @@
-package net.codejava.fileupload.model;
+package com.airdit.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

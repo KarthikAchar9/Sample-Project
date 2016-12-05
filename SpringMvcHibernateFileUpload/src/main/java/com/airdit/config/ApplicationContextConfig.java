@@ -1,14 +1,8 @@
-package net.codejava.fileupload.config;
+package com.airdit.config;
 
 import java.util.Properties;
 
 import javax.sql.DataSource;
-
-import net.codejava.fileupload.dao.FileUploadDAO;
-import net.codejava.fileupload.dao.FileUploadDAOImpl;
-import net.codejava.fileupload.dao.VideoUploadDAO;
-import net.codejava.fileupload.dao.VideoUploadDAOImpl;
-import net.codejava.fileupload.model.UploadFile;
 
 import org.apache.commons.dbcp2.BasicDataSource;
 import org.hibernate.SessionFactory;
@@ -21,6 +15,12 @@ import org.springframework.orm.hibernate4.LocalSessionFactoryBuilder;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.web.multipart.commons.CommonsMultipartResolver;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
+
+import com.airdit.dao.FileUploadDAO;
+import com.airdit.dao.FileUploadDAOImpl;
+import com.airdit.dao.VideoUploadDAO;
+import com.airdit.dao.VideoUploadDAOImpl;
+import com.airdit.model.UploadFile;
 
 @Configuration
 @ComponentScan("net.codejava.fileupload")

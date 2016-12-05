@@ -1,4 +1,4 @@
-package net.codejava.fileupload.controller;
+package com.airdit.control;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.transaction.Transactional;
@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.commons.CommonsMultipartFile;
 
-import net.codejava.fileupload.dao.FileUploadDAO;
-import net.codejava.fileupload.dao.VideoUploadDAO;
-import net.codejava.fileupload.model.UploadFile;
-import net.codejava.fileupload.model.UploadVideo;
+import com.airdit.dao.FileUploadDAO;
+import com.airdit.dao.VideoUploadDAO;
+import com.airdit.model.UploadFile;
+import com.airdit.model.UploadVideo;
 
 /**
  * Handles requests for the file upload page.
